@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Fipps';
+    src: url('/cassebrique/font/Fipps-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* supprime les scrollbars */
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fipps', sans-serif;
+    color: white;
+}
+
+#game-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+    text-shadow: #fff 0px 1px 1px;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    letter-spacing: 5px; /* Ajuste si nécessaire */
+}
+
+canvas {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
